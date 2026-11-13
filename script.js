@@ -45,7 +45,7 @@
   var hIdx = 0;
 
   var PROJECTS = {
-    'sidic-web': { text: 'ERP rebuild (VB.NET + Access -> Django + PostgreSQL). Private repo, walkthrough on request.', url: null },
+    'sidic-web': { text: 'ERP rebuild (VB.NET + Access -> Django + PostgreSQL). Code is private; the case study is public.', url: 'https://github.com/Nedavefo/erp-modernization-case-study' },
     'go-next-market': { text: 'React 18 + Vite + Tailwind corporate site, live on Vercel.', url: 'https://go-next-market.vercel.app' },
     'reporte-technical-superstore': { text: 'Browser-only KoboToolbox -> Excel QA report tool. Private repo, demo on request.', url: null },
     'php-image-gallery': { text: 'PHP + MySQL app: registration, sessions, validated uploads.', url: 'https://github.com/Nedavefo/PHP_Project' },
