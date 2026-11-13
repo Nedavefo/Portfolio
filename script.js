@@ -68,6 +68,7 @@
         '  whoami            who I am',
         '  projects          list my projects',
         '  open <project>    open a project (try: open go-next-market)',
+        '  ai                how I work with AI',
         '  stack             what I work with',
         '  log               experience and education',
         '  contact           how to reach me',
@@ -86,6 +87,16 @@
     projects: function () {
       Object.keys(PROJECTS).forEach(function (k) { line('  ' + k + '  ' + (PROJECTS[k].url ? '[open]' : '[private]'), 'm'); });
       line('use: open <project>', 'u');
+    },
+    ai: function () {
+      lines([
+        'How I work with AI (Claude Code):',
+        '  1. spec first: goal, data and what "done" looks like',
+        '  2. small steps: one model, one screen, one migration at a time',
+        '  3. delegate the repetitive: boilerplate, migrations, tests, docs',
+        '  4. verify everything: read every diff, run it, commit through Git',
+        'Fast because it is directed, safe because it is reviewed.'
+      ]);
     },
     stack: function () {
       lines([

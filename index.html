@@ -25,6 +25,7 @@
       <ul>
         <li><a href="#about">about</a></li>
         <li><a href="#projects">projects</a></li>
+        <li><a href="#ai">ai</a></li>
         <li><a href="#stack">stack</a></li>
         <li><a href="#log">log</a></li>
         <li><a href="#contact">contact</a></li>
@@ -78,7 +79,7 @@
       <div class="prose">
         <p>I build web applications end to end: database, back end and interface. My current project, <strong>Sidic Web</strong>, rebuilds a distribution company's old VB.NET and Access desktop ERP as a Django and PostgreSQL web app. It covers inventory, receivables, payables and sales reports, with the data migrated and each screen checked against the system it replaces.</p>
         <p>Alongside coding I have worked in IT support for just over two years. That taught me what code looks like once real people depend on it: read the error, reproduce it, fix it, write down what changed.</p>
-        <p>I use AI tools (Claude Code) as a pair programmer, and I review every change before it is committed.</p>
+        <p>I work with AI every day and I know how to get real speed out of it without giving up quality. I treat it as a fast pair programmer that I direct, and I stay accountable for every line that ships. <a href="#ai">How I work with AI ↓</a></p>
       </div>
     </section>
 
@@ -160,9 +161,36 @@
       <p class="more"><a href="https://github.com/Nedavefo?tab=repositories" rel="noopener">more on GitHub ↗</a> · JavaFX apps, Node.js labs, Azure Static Web Apps exercises and earlier coursework.</p>
     </section>
 
+    <!-- AI WORKFLOW -->
+    <section id="ai" class="block" aria-labelledby="ai-h">
+      <h2 id="ai-h" class="block-title"><span class="ln">03</span> ai-workflow.md</h2>
+      <div class="prose">
+        <p>AI tools such as Claude Code are part of how I build. The speed comes from how I use them, not from accepting whatever they produce.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Spec first</h3>
+          <p>I define the goal, the data and what "done" looks like before any code is written, so the tool works on a clear target.</p>
+        </li>
+        <li>
+          <h3>Small steps</h3>
+          <p>I split work into small, checkable changes: one model, one screen, one migration at a time. Errors stay easy to find.</p>
+        </li>
+        <li>
+          <h3>Delegate the repetitive</h3>
+          <p>Boilerplate, data migrations, test scaffolding, refactors and documentation go to the AI, so my time goes to design and decisions.</p>
+        </li>
+        <li>
+          <h3>Verify everything</h3>
+          <p>I read every diff, run the code, compare behaviour against the system being replaced and commit through Git. I never ship something I cannot explain.</p>
+        </li>
+      </ol>
+      <p class="more">Used on Sidic Web to rebuild a legacy ERP in Django and PostgreSQL, from schema and data migration to reports and permissions.</p>
+    </section>
+
     <!-- STACK -->
     <section id="stack" class="block" aria-labelledby="stack-h">
-      <h2 id="stack-h" class="block-title"><span class="ln">03</span> stack.json</h2>
+      <h2 id="stack-h" class="block-title"><span class="ln">04</span> stack.json</h2>
       <pre class="code" aria-label="Technology stack as JSON"><code><span class="p">{</span>
   <span class="k">"languages"</span><span class="p">:</span> <span class="p">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"JavaScript"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"PHP"</span><span class="p">,</span> <span class="s">"SQL"</span><span class="p">,</span> <span class="s">"VB.NET"</span><span class="p">],</span>
   <span class="k">"web"</span><span class="p">:</span> <span class="p">[</span><span class="s">"Django"</span><span class="p">,</span> <span class="s">"React"</span><span class="p">,</span> <span class="s">"Node.js"</span><span class="p">,</span> <span class="s">"Vite"</span><span class="p">,</span> <span class="s">"Tailwind CSS"</span><span class="p">,</span> <span class="s">"HTML"</span><span class="p">,</span> <span class="s">"CSS"</span><span class="p">],</span>
@@ -175,10 +203,10 @@
 
     <!-- LOG -->
     <section id="log" class="block" aria-labelledby="log-h">
-      <h2 id="log-h" class="block-title"><span class="ln">04</span> git log</h2>
+      <h2 id="log-h" class="block-title"><span class="ln">05</span> git log</h2>
       <ol class="log">
         <li><span class="when">Nov 2026 → now</span><span class="what"><strong>Sidic Web</strong>: ERP rebuild in Django and PostgreSQL</span></li>
-        <li><span class="when">Dec 2026 (expected)</span><span class="what"><strong>B.S. Software Engineering</strong>, Politécnico Grancolombiano (online)</span></li>
+        <li><span class="when">Dec 2026 (expected)</span><span class="what"><strong>B.S. Software Engineering</strong>, Politécnico Grancolombiano</span></li>
         <li><span class="when">Jun 2025 → now</span><span class="what"><strong>IT and web support</strong>, Go Next Market (remote): only IT contact for a team of five, maintains the company website</span></li>
         <li><span class="when">Sep → Nov 2025</span><span class="what"><strong>Fullstack developer intern</strong>, VibesMeet (remote): React and Python features, Jira tickets with an international team</span></li>
         <li><span class="when">Sep 2023 → Apr 2025</span><span class="what"><strong>Diploma, Computer Programming</strong>, Georgian College, Ontario</span></li>
@@ -187,7 +215,7 @@
 
     <!-- CONTACT -->
     <section id="contact" class="block" aria-labelledby="contact-h">
-      <h2 id="contact-h" class="block-title"><span class="ln">05</span> contact.sh</h2>
+      <h2 id="contact-h" class="block-title"><span class="ln">06</span> contact.sh</h2>
       <div class="contact">
         <p>Hiring a junior developer or automation developer in the Toronto area? Send me a note.</p>
         <ul class="contact-list">
