@@ -1,4 +1,4 @@
-/* Nexon Veloza portfolio. Vanilla JS, no dependencies. */
+/* Nexon David Veloza Forero portfolio. Vanilla JS, no dependencies. */
 (function () {
   'use strict';
   var root = document.documentElement;
@@ -79,7 +79,7 @@
     },
     whoami: function () {
       lines([
-        'Nexon Veloza, junior software developer.',
+        'Nexon David Veloza Forero, junior software developer.',
         'Toronto, ON. B.S. Software Engineering (Dec 2026), Georgian College diploma.',
         'Django, React, Python, SQL. Open to junior developer and automation roles.'
       ]);
@@ -170,7 +170,7 @@
     lastFocus = document.activeElement;
     term.hidden = false;
     if (!out.childNodes.length) {
-      line('Nexon Veloza portfolio shell. Type help.', 'a');
+      line('Nexon David Veloza Forero portfolio shell. Type help.', 'a');
     }
     input.focus();
     setTimeout(function () { input.focus(); }, 60);
