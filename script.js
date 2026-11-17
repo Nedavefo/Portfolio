@@ -45,7 +45,7 @@
   var hIdx = 0;
 
   var PROJECTS = {
-    'sidic-web': { text: 'ERP rebuild (VB.NET + Access -> Django + PostgreSQL). Code is private; the case study is public.', url: 'https://github.com/Nedavefo/erp-modernization-case-study' },
+    'sidic-web': { text: 'ERP migration (VB.NET + Access -> Django). Live demo with synthetic data (demo / demo-sidic-2026) and public source.', url: 'https://nedavefo.pythonanywhere.com/' },
     'andino-apps': { text: 'Own business: 3 Atlassian Forge apps for Jira Cloud (Google Chat, Zoom Team Chat, Todoist). First one in Marketplace review. Code is private, demo on request.', url: 'https://andinoapps.com' },
     'go-next-market': { text: 'React 18 + Vite + Tailwind corporate site, live on GitHub Pages.', url: 'https://nedavefo.github.io/GoNextMarket/' },
     'reporte-technical-superstore': { text: 'Browser-only KoboToolbox -> Excel QA report tool. Live demo and public source.', url: 'https://nedavefo.github.io/Reporte-Technical-Superstore-Public-Version/' },

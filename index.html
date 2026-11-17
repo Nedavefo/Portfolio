@@ -91,19 +91,21 @@
         <article class="card featured">
           <header>
             <h3>sidic-web</h3>
-            <span class="badge wip">in progress</span>
+            <span class="badge live">live demo</span>
           </header>
-          <p>ERP rebuild for Impordisa, a distribution company. Legacy VB.NET and Access desktop system migrated to a Django web app on PostgreSQL.</p>
+          <p>Migration of a legacy desktop ERP (VB.NET WinForms, MS Access, Crystal Reports) to a Django web app for a distribution company, now in production for the client. The public demo runs on synthetic data.</p>
           <ul class="points">
-            <li>Customers, items, suppliers, accounts payable and receivable</li>
-            <li>Inventory: kardex, valuation and adjustments</li>
-            <li>Sales reports and role-based permissions</li>
-            <li>Access data migrated to PostgreSQL</li>
+            <li>Invoicing, inventory, accounts receivable, purchasing, commissions and reports</li>
+            <li>Legacy business rules reproduced with parity (weighted average cost, inventory ledger, commissions, withholdings) and checked with 191 automated tests</li>
+            <li>Colombian e-invoicing flat-file export with exact rounding; gap-free document numbering with atomic transactions and Decimal money</li>
+            <li>5 roles, read-only coexistence mode for gradual cutover</li>
           </ul>
-          <p class="tags"><span>Python</span><span>Django</span><span>PostgreSQL</span><span>Git</span></p>
+          <p class="tags"><span>Python</span><span>Django</span><span>htmx</span><span>PostgreSQL</span><span>Git</span></p>
           <p class="links">
+            <a href="https://nedavefo.pythonanywhere.com/" rel="noopener">live demo ↗</a>
+            <a href="https://github.com/Nedavefo/sidic-web-demo" rel="noopener">source ↗</a>
             <a href="https://github.com/Nedavefo/erp-modernization-case-study" rel="noopener">case study ↗</a>
-            <span class="muted">code is private · walkthrough on request</span>
+            <span class="muted">demo login: demo / demo-sidic-2026</span>
           </p>
         </article>
 
