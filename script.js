@@ -46,6 +46,7 @@
 
   var PROJECTS = {
     'sidic-web': { text: 'ERP rebuild (VB.NET + Access -> Django + PostgreSQL). Code is private; the case study is public.', url: 'https://github.com/Nedavefo/erp-modernization-case-study' },
+    'andino-apps': { text: 'Own business: 3 Atlassian Forge apps for Jira Cloud (Google Chat, Zoom Team Chat, Todoist). First one in Marketplace review. Code is private, demo on request.', url: 'https://andinoapps.com' },
     'go-next-market': { text: 'React 18 + Vite + Tailwind corporate site, live on GitHub Pages.', url: 'https://nedavefo.github.io/GoNextMarket/' },
     'reporte-technical-superstore': { text: 'Browser-only KoboToolbox -> Excel QA report tool. Private repo, demo on request.', url: null },
     'php-image-gallery': { text: 'PHP + MySQL app: registration, sessions, validated uploads.', url: 'https://github.com/Nedavefo/PHP_Project' },
@@ -103,12 +104,13 @@
         'languages : Python, JavaScript, Java, PHP, SQL, VB.NET',
         'web       : Django, React, Node.js, Vite, Tailwind CSS, HTML, CSS',
         'data      : PostgreSQL, MySQL, SQLite',
-        'tools     : Git, GitHub, Jira, Claude Code',
+        'tools     : Git, GitHub, Jira, Atlassian Forge, Vitest, Claude Code',
         'learning  : TypeScript, automated testing, CI'
       ]);
     },
     log: function () {
       lines([
+        'Nov 2026 -> now   Andino Apps (own business), Atlassian Forge apps for Jira Cloud',
         'Nov 2026 -> now   Sidic Web, ERP rebuild (Django, PostgreSQL)',
         'Dec 2026          B.S. Software Engineering, Politecnico Grancolombiano (expected)',
         'Jun 2025 -> now   IT and web support, Go Next Market (remote)',
